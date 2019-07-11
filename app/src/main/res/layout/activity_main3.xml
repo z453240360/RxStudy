@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+    <org.angmarch.views.NiceSpinner
+        android:id="@+id/nice_spinner"
+        android:textColor="#000000"
+        app:arrowTint="@color/colorPrimary"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"/>
+
+    <Spinner
+        android:id="@+id/mSpinner"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+</LinearLayout>

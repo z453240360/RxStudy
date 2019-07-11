@@ -1,0 +1,3 @@
+include ':app'
+include ':execlDemo'
+include ':amm_sdk_sample'
